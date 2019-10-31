@@ -13,21 +13,31 @@ public class RobotSquare {
  
     	// 1. Make a new Robot
 
-
+    	Robot Sir = new Robot();
         // 3. Put the robot's pen down
-
+Sir.penDown();
 
         // 6. Make the robot move as fast as possible
-
+Sir.setSpeed(100);
 
         // 5. Do everything below here 4 times
+Sir.move(200);
 
+Sir.turn(90);
+
+Sir.move(200);
+
+Sir.turn(90);
+
+Sir.move(200);
+
+Sir.turn(90);
 
         //         2. Move your robot 200 pixels
 
-
+    	Sir.move(200);
         //         4. Turn the robot 90 degrees to the right (90 degrees)
-
+    	Sir.turn(90);
 
     }
 }
